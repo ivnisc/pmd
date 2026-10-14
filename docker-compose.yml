@@ -1,0 +1,26 @@
+# adaptado del laboratorio 05 de ein102b
+name: t1
+
+services:
+  db:
+    build: .
+    image: t1-postgis-gdal
+    environment:
+      POSTGRES_DB: t1
+      POSTGRES_USER: t1
+      POSTGRES_PASSWORD: t12026
+    ports:
+      - "127.0.0.1:${T1_DB_PORT:-5435}:5432"
+    volumes:
+      - t1-pgdata:/var/lib/postgresql/data
+      - ./data:/data:ro
+      - ./data/interim:/interim
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -h 127.0.0.1 -U t1 -d t1"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+
+volumes:
+  t1-pgdata:
+    name: t1-pgdata
