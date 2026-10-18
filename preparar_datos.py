@@ -16,6 +16,7 @@ import time
 BASE = Path(__file__).resolve().parent
 DESTINO = BASE / "data" / "interim"
 CAPAS = ("points", "lines", "multipolygons")
+METODO = "pbf-completo-a-gpkg-4326-luego-filtro-y-reproyeccion-v1"
 
 
 def sha256(ruta):
@@ -78,6 +79,7 @@ def main():
         "bbox_epsg4326": zona["bbox_epsg4326"],
         "srid": zona["working_srid"],
         "gdal_version": version,
+        "extraction_method": METODO,
     }
     DESTINO.mkdir(parents=True, exist_ok=True)
     gpkg = DESTINO / f"osm_{args.zona}.gpkg"
@@ -101,16 +103,32 @@ def main():
         inicio = time.perf_counter()
         with TemporaryDirectory(prefix=".osm-", dir=DESTINO) as temporal:
             parcial = Path(temporal) / gpkg.name
+            nacional = Path(temporal) / "chile_sin_filtro.gpkg"
             log_parcial = Path(temporal) / log.name
             salida_contenedor = "/interim/" + parcial.relative_to(DESTINO).as_posix()
+            nacional_contenedor = "/interim/" + nacional.relative_to(DESTINO).as_posix()
             try:
                 with log_parcial.open("w", encoding="utf-8") as registro:
+                    # filtrar el PBF puede omitir nodos necesarios para otras geometrías.
+                    print("Reconstruyendo el PBF completo en EPSG:4326...", flush=True)
+                    registro.write("Etapa 1: PBF completo a GPKG EPSG:4326, sin filtro espacial.\n")
+                    registro.flush()
                     compose(
                         "exec", "-T", "db", "ogr2ogr", "-f", "GPKG",
-                        salida_contenedor, "/data/" + relativa.as_posix(), *CAPAS,
+                        nacional_contenedor, "/data/" + relativa.as_posix(), *CAPAS,
+                        "-lco", "SPATIAL_INDEX=NO", "-progress",
+                        "--config", "OSM_MAX_TMPFILE_SIZE", "4000",
+                        stdout=registro, stderr=subprocess.STDOUT,
+                    )
+                    conteos_nacionales = verificar(nacional, 4326)
+                    print("Seleccionando la caja sobre geometrías reconstruidas...", flush=True)
+                    registro.write("\nEtapa 2: filtro sobre GPKG y reproyección a EPSG:5361.\n")
+                    registro.flush()
+                    compose(
+                        "exec", "-T", "db", "ogr2ogr", "-f", "GPKG",
+                        salida_contenedor, nacional_contenedor, *CAPAS,
                         "-spat", *map(str, zona["bbox_epsg4326"]),
                         "-t_srs", f"EPSG:{zona['working_srid']}", "-progress",
-                        "--config", "OSM_MAX_TMPFILE_SIZE", "4000",
                         stdout=registro, stderr=subprocess.STDOUT,
                     )
                 conteos = verificar(parcial, zona["working_srid"])
@@ -122,6 +140,7 @@ def main():
                 **parametros,
                 "source_file": fuente["filename"],
                 "counts": conteos,
+                "unfiltered_counts_epsg4326": conteos_nacionales,
                 "output_sha256": sha256(parcial),
                 "output_bytes": parcial.stat().st_size,
                 "elapsed_seconds": round(time.perf_counter() - inicio, 3),
@@ -143,7 +162,7 @@ def main():
         avisos = log.read_text().count("Warning ")
         if avisos:
             print(f"El registro GDAL contiene {avisos} mensajes de advertencia: {log}")
-    print("El filtro -spat no recorta las geometrías en el borde de la caja.")
+    print("La caja se aplica después de reconstruir OSM; se conservan geometrías completas.")
 
 
 if __name__ == "__main__":

@@ -105,6 +105,7 @@ def main():
         "pbf": metadata["source_file"],
         "pbf_sha256": metadata["source_sha256"],
         "gpkg_sha256": metadata["output_sha256"],
+        "extraction_method": metadata["extraction_method"],
     }
     auditoria["etapa"] = "antes_de_reparaciones"
     auditoria["carga_segundos"] = tiempos
