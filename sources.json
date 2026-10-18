@@ -1,0 +1,66 @@
+{
+  "inspection_date": "2026-10-14",
+  "study_area": {
+    "name": "santiago-centro",
+    "bbox_epsg4326": [-70.75, -33.52, -70.52, -33.36],
+    "working_srid": 5361
+  },
+  "sources": {
+    "osm": {
+      "filename": "chile-261012.osm.pbf",
+      "input_path": "data/chile-261012.osm.pbf",
+      "publisher": "OpenStreetMap via Geofabrik",
+      "publication_page": "https://download.geofabrik.de/south-america/chile.html",
+      "snapshot_utc": "2026-10-12T20:21:35+00:00",
+      "snapshot_basis": "PBF header osmosis_replication_timestamp",
+      "download_date": null,
+      "bytes": 349379970,
+      "sha256": "451b6104c08bc2535118fceed8f01e303d777bcdf19f62f8e7050f266cb3706a"
+    },
+    "gtfs": {
+      "filename": "GTFS_20261003.zip",
+      "input_path": "data/GTFS_20261003.zip",
+      "publisher": "Red Metropolitana / DTPM",
+      "publication_page": "https://www.dtpm.cl/index.php/gtfs-vigente?width=wide",
+      "download_url": "https://www.dtpm.cl/descargas/gtfs/GTFS_20261003.zip",
+      "download_url_basis": "link on official DTPM publication page inspected 2026-10-14",
+      "version": "V168.20261003",
+      "feed_start_date": "2026-10-03",
+      "feed_end_date": "2026-12-31",
+      "download_date": "2026-10-13",
+      "download_date_basis": "confirmed by user",
+      "bytes": 12820680,
+      "sha256": "e2dded096b18fdf884c73bc79f8d3450e0c6b414ecc6d5f51d35a7f97e0ffa01",
+      "observed_counts": {
+        "stops": 18455,
+        "stops_bbox_location_type_0_or_empty": 6812,
+        "routes": 428,
+        "trips": 26159,
+        "shape_points": 456573,
+        "shapes": 981,
+        "stop_times": 1098529
+      }
+    },
+    "dpa": {
+      "filename": "DPA_2023.zip",
+      "input_path": "data/DPA_2023.zip",
+      "publisher": "IDE Chile (SUBDERE, IGM, DIFROL, INE)",
+      "publication_page": "https://datos.gob.cl/dataset/categoria-geoespacial-limites-y-fronteras",
+      "version": "DPA 2023",
+      "download_date": null,
+      "bytes": 310992026,
+      "sha256": "8ac1ce872230b645c3cf04db2d980c1968e78f602144347f4513119dc9b945db",
+      "availability": "inspected in ein102b/03/datos_fuente; copy to t1 pending",
+      "source_srid": 5360,
+      "expected_communes": 345
+    }
+  },
+  "excluded_alternative_osm": {
+    "filename": "chile-260903.osm.pbf",
+    "snapshot_utc": "2026-09-03T20:21:51+00:00",
+    "download_date": "2026-09-04",
+    "download_date_basis": "confirmed by user",
+    "bytes": 346752045,
+    "sha256": "8fe9fc42e7ffd01f64ae34d42e00fb2791945e47b4c4bbfc12cebe3292a68a63"
+  }
+}
