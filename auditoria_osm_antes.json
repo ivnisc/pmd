@@ -1,0 +1,150 @@
+{
+  "tags": [
+    {
+      "tipo": "hstore",
+      "tabla": "osm_lineas"
+    },
+    {
+      "tipo": "hstore",
+      "tabla": "osm_poligonos"
+    },
+    {
+      "tipo": "hstore",
+      "tabla": "osm_puntos"
+    }
+  ],
+  "capas": [
+    {
+      "filas": 169736,
+      "nulos": 0,
+      "srids": [
+        5361
+      ],
+      "tabla": "osm_lineas",
+      "tipos": [
+        "ST_LineString"
+      ],
+      "vacios": 0,
+      "invalidos": 1
+    },
+    {
+      "filas": 146828,
+      "nulos": 0,
+      "srids": [
+        5361
+      ],
+      "tabla": "osm_poligonos",
+      "tipos": [
+        "ST_MultiPolygon"
+      ],
+      "vacios": 0,
+      "invalidos": 368
+    },
+    {
+      "filas": 255799,
+      "nulos": 0,
+      "srids": [
+        5361
+      ],
+      "tabla": "osm_puntos",
+      "tipos": [
+        "ST_Point"
+      ],
+      "vacios": 0,
+      "invalidos": 0
+    }
+  ],
+  "indices": [
+    {
+      "bytes": 7766016,
+      "tabla": "osm_lineas",
+      "indice": "osm_lineas_geom_geom_idx",
+      "metodo": "gist",
+      "primario": false,
+      "definicion": "CREATE INDEX osm_lineas_geom_geom_idx ON public.osm_lineas USING gist (geom)"
+    },
+    {
+      "bytes": 3833856,
+      "tabla": "osm_lineas",
+      "indice": "osm_lineas_pkey",
+      "metodo": "btree",
+      "primario": true,
+      "definicion": "CREATE UNIQUE INDEX osm_lineas_pkey ON public.osm_lineas USING btree (id)"
+    },
+    {
+      "bytes": 7045120,
+      "tabla": "osm_poligonos",
+      "indice": "osm_poligonos_geom_geom_idx",
+      "metodo": "gist",
+      "primario": false,
+      "definicion": "CREATE INDEX osm_poligonos_geom_geom_idx ON public.osm_poligonos USING gist (geom)"
+    },
+    {
+      "bytes": 3309568,
+      "tabla": "osm_poligonos",
+      "indice": "osm_poligonos_pkey",
+      "metodo": "btree",
+      "primario": true,
+      "definicion": "CREATE UNIQUE INDEX osm_poligonos_pkey ON public.osm_poligonos USING btree (id)"
+    },
+    {
+      "bytes": 10706944,
+      "tabla": "osm_puntos",
+      "indice": "osm_puntos_geom_geom_idx",
+      "metodo": "gist",
+      "primario": false,
+      "definicion": "CREATE INDEX osm_puntos_geom_geom_idx ON public.osm_puntos USING gist (geom)"
+    },
+    {
+      "bytes": 5767168,
+      "tabla": "osm_puntos",
+      "indice": "osm_puntos_pkey",
+      "metodo": "btree",
+      "primario": true,
+      "definicion": "CREATE UNIQUE INDEX osm_puntos_pkey ON public.osm_puntos USING btree (id)"
+    }
+  ],
+  "versiones": {
+    "postgis": "POSTGIS=\"3.6.4 94d984b\" [EXTENSION] PGSQL=\"160\" GEOS=\"3.14.1-CAPI-1.20.5\" (compiled against GEOS 3.11.1) PROJ=\"9.8.1 NETWORK_ENABLED=OFF URL_ENDPOINT=https://cdn.proj.org USER_WRITABLE_DIRECTORY=/var/lib/postgresql/.local/share/proj DATABASE_PATH=/usr/share/proj/proj.db\" (compiled against PROJ 9.1.1) LIBXML=\"2.9.14\" LIBJSON=\"0.16\" LIBPROTOBUF=\"1.4.1\" WAGYU=\"0.5.0 (Internal)\"",
+    "postgres": "16.15 (Debian 16.15-1.pgdg12+2)"
+  },
+  "motivos": [
+    {
+      "tabla": "osm_lineas",
+      "motivo": "Too few points in geometry component",
+      "filas": 1
+    },
+    {
+      "tabla": "osm_poligonos",
+      "motivo": "IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3",
+      "filas": 77
+    },
+    {
+      "tabla": "osm_poligonos",
+      "motivo": "Ring Self-intersection",
+      "filas": 1
+    },
+    {
+      "tabla": "osm_poligonos",
+      "motivo": "Self-intersection",
+      "filas": 58
+    },
+    {
+      "tabla": "osm_poligonos",
+      "motivo": "Too few points in geometry component",
+      "filas": 232
+    }
+  ],
+  "archivo_invalidos": "geometrias_osm_invalidas.csv",
+  "fuente": {
+    "pbf": "chile-261012.osm.pbf",
+    "pbf_sha256": "451b6104c08bc2535118fceed8f01e303d777bcdf19f62f8e7050f266cb3706a",
+    "gpkg_sha256": "1cb631c1d3a765bb8cfee520f28549b3c825e75d9be8df7d45ffa59a8a6b50f1"
+  },
+  "etapa": "antes_de_reparaciones",
+  "carga_segundos": {
+    "osm_puntos": 2.327,
+    "osm_lineas": 1.718,
+    "osm_poligonos": 1.755
+  }
+}

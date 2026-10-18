@@ -1,0 +1,370 @@
+tabla,id,osm_id,osm_way_id,motivo,ubicacion,area_m2_original
+osm_lineas,14831,103247113,,Too few points in geometry component,POINT(348480.01614270546 6307538.814976538),
+osm_poligonos,61,3898442,,Self-intersection,POINT(346328.0574122013 6298324.660704808),6691.377042766061
+osm_poligonos,197,8511009,,Self-intersection,POINT(347259.8679370659 6298749.508112661),54940.963399620276
+osm_poligonos,644,16404642,,Self-intersection,POINT(340544.75186677347 6294718.1561464155),5410.442839602562
+osm_poligonos,659,16486345,,Self-intersection,POINT(348112.64463288983 6299531.923003478),439.22017403898656
+osm_poligonos,681,17092650,,Self-intersection,POINT(348617.82594053156 6300099.215118455),168.50275492708266
+osm_poligonos,682,17092651,,Self-intersection,POINT(348686.79975638795 6300045.426549125),279.31805970461926
+osm_poligonos,683,17092652,,Self-intersection,POINT(348703.79141528567 6300009.734639971),212.34195839640137
+osm_poligonos,693,17555303,,Self-intersection,POINT(346118.6430106177 6296330.476303225),160.1018123788814
+osm_poligonos,723,18071741,,Ring Self-intersection,POINT(348416.9624555119 6299117.416666457),597.6986679478246
+osm_poligonos,731,18132416,,Self-intersection,POINT(351906.33414841886 6297002.633586055),6425.824340389608
+osm_poligonos,738,18521090,,Self-intersection,POINT(338720.64268621965 6306198.288748368),533.2383362665215
+osm_poligonos,739,18521091,,Self-intersection,POINT(338608.67019779654 6306231.584788171),355.988198965077
+osm_poligonos,740,18521092,,Self-intersection,POINT(338594.9835421464 6306275.5131007545),640.1855921145967
+osm_poligonos,741,18521093,,Self-intersection,POINT(338734.6134869566 6306211.043940762),185.7325656091494
+osm_poligonos,747,18706454,,Self-intersection,POINT(351259.8284492545 6303640.318682233),1223.6565021607762
+osm_poligonos,856,21110013,,Too few points in geometry component,POINT(341958.10688931594 6289778.836393857),0
+osm_poligonos,1229,,28162135,Too few points in geometry component,POINT(358587.17757666466 6306227.231733973),0
+osm_poligonos,1231,,28162149,Self-intersection,POINT(358567.26656546735 6306334.891890537),7125.475867196348
+osm_poligonos,1236,,28316693,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,1482,,37217120,Self-intersection,POINT(337368.48720011086 6302290.490118321),5721.85101507914
+osm_poligonos,1538,,38133353,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,1541,,38133357,Too few points in geometry component,POINT(339481.08968033653 6289800.691941399),0
+osm_poligonos,1542,,38133359,Too few points in geometry component,POINT(339547.4599977458 6289742.278033871),0
+osm_poligonos,1924,,43879027,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,2404,,52205018,Self-intersection,POINT(341429.40624482033 6289826.660852571),1293.5247192567601
+osm_poligonos,2406,,52205055,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,3184,,96491465,Too few points in geometry component,POINT(357336.5231063513 6307660.858688465),0
+osm_poligonos,3415,,124328148,Too few points in geometry component,POINT(358700.2830786831 6296929.803153587),0
+osm_poligonos,3418,,124877910,Too few points in geometry component,POINT(358536.2405476315 6307693.206500686),0
+osm_poligonos,3463,,131284812,Too few points in geometry component,POINT(337933.40715410194 6307404.8271232955),0
+osm_poligonos,4999,,170702365,Too few points in geometry component,POINT(344108.8439170213 6307483.750057248),0
+osm_poligonos,6568,,189469299,Self-intersection,POINT(337311.448280974 6304946.739973006),9891.118628367827
+osm_poligonos,6826,,192078223,Self-intersection,POINT(344833.7332383558 6289928.2629821),14481.12363290782
+osm_poligonos,6828,,192078225,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,6883,,194041549,Too few points in geometry component,POINT(337752.54150263476 6289732.832788128),0
+osm_poligonos,7075,,204855233,Self-intersection,POINT(341796.2920487963 6307285.978028953),141722.04838959165
+osm_poligonos,7092,,205870087,Too few points in geometry component,POINT(337414.5444625003 6296132.586245307),0
+osm_poligonos,7107,,205870103,Too few points in geometry component,POINT(337365.8873272432 6296667.766336177),0
+osm_poligonos,7213,,213281069,Too few points in geometry component,POINT(337430.5805403112 6293461.0936167445),0
+osm_poligonos,7608,,231160880,Self-intersection,POINT(358675.9838005495 6292764.605187498),321721.98785303306
+osm_poligonos,7901,,238752242,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,7912,,238968683,Too few points in geometry component,POINT(358699.9769213381 6297410.71533842),0
+osm_poligonos,7928,,239528383,Too few points in geometry component,POINT(337431.8237696702 6293401.672185255),0
+osm_poligonos,8057,,245696688,Too few points in geometry component,POINT(344524.7958873244 6289904.802317953),0
+osm_poligonos,8106,,247511847,Self-intersection,POINT(348321.15147771174 6307563.624624491),7696327.817112669
+osm_poligonos,8608,,255809207,Too few points in geometry component,POINT(337331.31661315134 6298884.230444796),0
+osm_poligonos,8611,,255819745,Too few points in geometry component,POINT(337351.7864410052 6298061.094951893),0
+osm_poligonos,8613,,255819748,Too few points in geometry component,POINT(337358.27764408087 6298089.777212702),0
+osm_poligonos,9081,,264694872,Too few points in geometry component,POINT(337698.50816747406 6297537.728384795),0
+osm_poligonos,9234,,264856871,Too few points in geometry component,POINT(337355.1033214531 6297433.942711558),0
+osm_poligonos,11999,,301584158,Self-intersection,POINT(337341.19469940045 6298132.601843854),229.86008052673643
+osm_poligonos,12068,,301808245,Too few points in geometry component,POINT(356828.0972099918 6307684.104343398),0
+osm_poligonos,12070,,301808804,Self-intersection,POINT(356479.5422227703 6307728.244038876),108.89013807928961
+osm_poligonos,13346,,343782768,Too few points in geometry component,POINT(338435.0935003256 6307454.498634984),0
+osm_poligonos,14837,,378582897,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,15021,,385062857,Too few points in geometry component,POINT(337342.1119183472 6298322.547746906),0
+osm_poligonos,15022,,385062858,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,15047,,385774276,Too few points in geometry component,POINT(341319.355795279 6307421.063104223),0
+osm_poligonos,15060,,385780084,Too few points in geometry component,POINT(340710.5177591563 6307475.095683085),0
+osm_poligonos,15206,,396942138,Self-intersection,POINT(341438.2895701634 6307476.264262905),979.3102612827252
+osm_poligonos,16183,,444982902,Too few points in geometry component,POINT(351670.55207157455 6289928.729002047),0
+osm_poligonos,17978,,446413078,Too few points in geometry component,POINT(344256.66403819143 6307490.108567009),0
+osm_poligonos,18216,,446871560,Too few points in geometry component,POINT(342866.4844751075 6307520.685024923),0
+osm_poligonos,18217,,446871561,Too few points in geometry component,POINT(342911.3484498813 6307526.8915323),0
+osm_poligonos,18218,,446871562,Too few points in geometry component,POINT(342993.1972320271 6307525.833222859),0
+osm_poligonos,18330,,446909898,Too few points in geometry component,POINT(345892.9446971994 6289838.963327846),0
+osm_poligonos,18459,,447060377,Too few points in geometry component,POINT(337264.82358233444 6302957.061531045),0
+osm_poligonos,21039,,448749856,Too few points in geometry component,POINT(342543.9856981479 6289835.038721658),0
+osm_poligonos,21250,,448863590,Too few points in geometry component,POINT(348003.07195870846 6289876.893454763),0
+osm_poligonos,22434,,450011627,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,22888,,450436570,Too few points in geometry component,POINT(337328.6837501421 6299772.187206858),0
+osm_poligonos,23343,,450812925,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,23376,,450823728,Too few points in geometry component,POINT(345856.4363812144 6289849.248969417),0
+osm_poligonos,24269,,454039022,Too few points in geometry component,POINT(352449.30412131036 6289952.456566809),0
+osm_poligonos,24620,,461595924,Self-intersection,POINT(358588.0277149554 6306165.863350319),22.4023609909965
+osm_poligonos,24621,,461595925,Too few points in geometry component,POINT(358603.5284425586 6306104.098668144),0
+osm_poligonos,25372,,493542099,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,25378,,493542107,Self-intersection,POINT(350121.4498268578 6289902.078762563),15967.1554817894
+osm_poligonos,25379,,493542114,Too few points in geometry component,POINT(350123.95540650084 6289899.067058323),0
+osm_poligonos,25434,,495097147,Self-intersection,POINT(353621.3035014474 6289968.471427117),294.39010592144103
+osm_poligonos,25533,,499381053,Self-intersection,POINT(358690.75741105597 6296694.618673007),15253.89066456927
+osm_poligonos,25694,,509948146,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,26239,,534723007,Too few points in geometry component,POINT(337336.4946384891 6298402.670427009),0
+osm_poligonos,26973,,544020731,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,26998,,544193345,Too few points in geometry component,POINT(339254.6792680401 6307450.347519668),0
+osm_poligonos,26999,,544193346,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,27888,,547369298,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,27934,,547698169,Too few points in geometry component,POINT(355566.38962521974 6289984.224848911),0
+osm_poligonos,29664,,551525218,Too few points in geometry component,POINT(358657.61861418816 6302024.757930819),0
+osm_poligonos,29992,,552074257,Too few points in geometry component,POINT(337402.99152968696 6294905.124794579),0
+osm_poligonos,32297,,560222954,Too few points in geometry component,POINT(338733.93759515404 6307457.823478434),0
+osm_poligonos,36555,,582713468,Too few points in geometry component,POINT(358652.457418796 6301555.636140227),0
+osm_poligonos,38015,,584505508,Self-intersection,POINT(355574.22054321726 6307719.612895473),282.8568773953673
+osm_poligonos,41514,,602285363,Too few points in geometry component,POINT(349528.5670870327 6289895.109037461),0
+osm_poligonos,41554,,602285618,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,41687,,602289463,Too few points in geometry component,POINT(344798.4737088779 6289839.105062831),0
+osm_poligonos,41695,,602308016,Too few points in geometry component,POINT(337474.9098731597 6290310.267130237),0
+osm_poligonos,41696,,602308019,Too few points in geometry component,POINT(337485.9111994128 6290040.903106665),0
+osm_poligonos,42748,,606411546,Too few points in geometry component,POINT(337382.78342165484 6298953.689498422),0
+osm_poligonos,43385,,606519681,Too few points in geometry component,POINT(337429.10748277884 6295169.743912943),0
+osm_poligonos,43387,,606521979,Too few points in geometry component,POINT(337385.5957111638 6296931.245164476),0
+osm_poligonos,44684,,607840441,Too few points in geometry component,POINT(348032.05580679706 6307592.6248626495),0
+osm_poligonos,48613,,618097991,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,50868,,620710439,Self-intersection,POINT(358536.63896888844 6305927.252608297),311926.76640155644
+osm_poligonos,53043,,636187632,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,53082,,636436386,Too few points in geometry component,POINT(346128.1976385575 6289842.801695619),0
+osm_poligonos,53236,,636691422,Too few points in geometry component,POINT(349329.5472439526 6289899.085590199),0
+osm_poligonos,54460,,637316909,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,54502,,637320991,Too few points in geometry component,POINT(358597.5547884924 6305893.744856402),0
+osm_poligonos,54503,,637320992,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,56076,,646096088,Too few points in geometry component,POINT(357894.61598467734 6290018.40799794),0
+osm_poligonos,56099,,646096111,Too few points in geometry component,POINT(357865.34547534236 6290018.941072268),0
+osm_poligonos,56100,,646096112,Too few points in geometry component,POINT(357850.89339694404 6290020.014370024),0
+osm_poligonos,56110,,646096122,Too few points in geometry component,POINT(357776.21908651094 6290013.954530373),0
+osm_poligonos,56415,,646116368,Self-intersection,POINT(356007.2590108505 6290016.175904298),478.3348001019123
+osm_poligonos,56850,,648868680,Self-intersection,POINT(337433.65527986654 6293003.977719929),715.8432116142967
+osm_poligonos,56851,,648868681,Self-intersection,POINT(337444.9577486999 6292853.690076387),1314.3997936736116
+osm_poligonos,59510,,687661241,Too few points in geometry component,POINT(357353.36957501905 6307729.058991202),0
+osm_poligonos,59511,,687661242,Too few points in geometry component,POINT(357421.563623345 6307752.243728958),0
+osm_poligonos,60008,,701243374,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,60011,,701243377,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,60387,,704352092,Too few points in geometry component,POINT(358738.4062681836 6296495.271006003),0
+osm_poligonos,60576,,708918438,Too few points in geometry component,POINT(356340.3788223944 6307737.220410459),0
+osm_poligonos,61115,,721034408,Too few points in geometry component,POINT(358583.8524848722 6303881.174795939),0
+osm_poligonos,63362,,734207257,Too few points in geometry component,POINT(351766.43400881154 6289936.604575567),0
+osm_poligonos,66971,,803237092,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,67455,,818956277,Too few points in geometry component,POINT(358762.39486743277 6292454.662201052),0
+osm_poligonos,67923,,831737336,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,67994,,836494174,Too few points in geometry component,POINT(344584.5707080454 6307498.910841187),0
+osm_poligonos,68044,,840675035,Too few points in geometry component,POINT(355259.439397987 6289981.425541668),0
+osm_poligonos,68045,,840675036,Too few points in geometry component,POINT(355238.37180869916 6289980.687510327),0
+osm_poligonos,68046,,840675037,Too few points in geometry component,POINT(355216.95657354814 6289980.210393135),0
+osm_poligonos,68511,,845526398,Too few points in geometry component,POINT(353086.7746567117 6289953.592929404),0
+osm_poligonos,68512,,845526399,Too few points in geometry component,POINT(353055.3026896586 6289952.824529208),0
+osm_poligonos,68515,,845526407,Too few points in geometry component,POINT(352980.8120241952 6289950.02426474),0
+osm_poligonos,68517,,845526410,Too few points in geometry component,POINT(352997.7265048657 6289948.973638724),0
+osm_poligonos,68518,,845526411,Too few points in geometry component,POINT(353012.2839883629 6289950.792908745),0
+osm_poligonos,68520,,845526414,Too few points in geometry component,POINT(352832.7125106524 6289945.688779913),0
+osm_poligonos,68522,,845526417,Too few points in geometry component,POINT(352849.6177251381 6289944.638271673),0
+osm_poligonos,68523,,845526418,Too few points in geometry component,POINT(352864.1844731218 6289946.457908513),0
+osm_poligonos,68524,,845526421,Too few points in geometry component,POINT(352891.2491059527 6289947.481274048),0
+osm_poligonos,68529,,845526427,Too few points in geometry component,POINT(352715.2849432145 6289940.977092914),0
+osm_poligonos,68530,,845526428,Too few points in geometry component,POINT(352683.8129861064 6289940.2074769735),0
+osm_poligonos,68531,,845526431,Too few points in geometry component,POINT(352700.727508174 6289939.1573717315),0
+osm_poligonos,68534,,845526434,Too few points in geometry component,POINT(352789.933901225 6289944.968592757),0
+osm_poligonos,68535,,845526435,Too few points in geometry component,POINT(352758.46193736396 6289944.199221283),0
+osm_poligonos,68536,,845526438,Too few points in geometry component,POINT(352775.36716388474 6289943.148843108),0
+osm_poligonos,68539,,845526441,Too few points in geometry component,POINT(353159.95930013235 6289956.7495643245),0
+osm_poligonos,68540,,845526442,Too few points in geometry component,POINT(353130.97646031284 6289956.019354254),0
+osm_poligonos,68544,,845526463,Too few points in geometry component,POINT(353172.66616389237 6289946.506456487),0
+osm_poligonos,68545,,845526464,Too few points in geometry component,POINT(352954.25500046264 6289949.219632477),0
+osm_poligonos,68548,,845526468,Too few points in geometry component,POINT(352738.90280913527 6289941.404718574),0
+osm_poligonos,68549,,845526469,Too few points in geometry component,POINT(352641.8274044103 6289939.265843386),0
+osm_poligonos,68776,,845785465,Too few points in geometry component,POINT(337191.7038742106 6306723.201620252),0
+osm_poligonos,69726,,858772972,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,70101,,884252811,Self-intersection,POINT(340139.24542604736 6289848.312009883),677.4550506324288
+osm_poligonos,71545,,941194395,Self-intersection,POINT(350190.96112412226 6289922.024426941),120.1089879612381
+osm_poligonos,71546,,941194396,Too few points in geometry component,POINT(350424.52767328935 6289937.9112859145),0
+osm_poligonos,71810,,947205847,Self-intersection,POINT(337463.1208039694 6290817.161021634),316.06719268781296
+osm_poligonos,73508,,993515591,Too few points in geometry component,POINT(343581.2573239744 6289835.266830869),0
+osm_poligonos,81415,,1033865589,Too few points in geometry component,POINT(339347.9735717083 6307460.812255078),0
+osm_poligonos,81419,,1033865611,Too few points in geometry component,POINT(339326.8502618467 6307470.045302348),0
+osm_poligonos,81509,,1041290879,Too few points in geometry component,POINT(344824.7913348213 6289876.719413678),0
+osm_poligonos,81528,,1043102194,Too few points in geometry component,POINT(337211.3607308167 6305674.27512422),0
+osm_poligonos,81887,,1054133674,Self-intersection,POINT(337350.12662786053 6299946.146526736),392.02064638179746
+osm_poligonos,82063,,1072480762,Self-intersection,POINT(358596.3584157811 6306467.67403705),191.28396660001678
+osm_poligonos,82376,,1081643843,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,82378,,1081643846,Self-intersection,POINT(339169.6337682326 6289750.371858354),8363.055319384932
+osm_poligonos,84224,,1099389351,Self-intersection,POINT(347815.6994623023 6307604.3232607925),19.758493900983332
+osm_poligonos,84313,,1099763897,Self-intersection,POINT(348307.52994789195 6289881.446176199),349.4916459233445
+osm_poligonos,84315,,1099764800,Self-intersection,POINT(348364.960078857 6289876.5486278),51.445923992549496
+osm_poligonos,84318,,1099767729,Too few points in geometry component,POINT(348964.0002629161 6289911.972477221),0
+osm_poligonos,85943,,1110519850,Too few points in geometry component,POINT(344625.2438916167 6307542.453383481),0
+osm_poligonos,87179,,1124519822,Too few points in geometry component,POINT(347777.20867507346 6289868.624133591),0
+osm_poligonos,87395,,1125520028,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,87396,,1125520031,Too few points in geometry component,POINT(337390.41217301216 6297379.609669968),0
+osm_poligonos,88038,,1131071485,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,88111,,1131080873,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,88134,,1131765153,Too few points in geometry component,POINT(358737.6306765459 6295391.629353786),0
+osm_poligonos,91947,,1168791710,Too few points in geometry component,POINT(345505.9946333029 6307556.910949305),0
+osm_poligonos,92749,,1174166393,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,92989,,1175459148,Too few points in geometry component,POINT(350173.1200908786 6289916.890366808),0
+osm_poligonos,92990,,1175459149,Too few points in geometry component,POINT(350469.5261327963 6289932.709298176),0
+osm_poligonos,93366,,1177719317,Too few points in geometry component,POINT(358578.68724627176 6306646.28770533),0
+osm_poligonos,95455,,1181239645,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,95456,,1181239810,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,95457,,1181239816,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,95462,,1181239822,Too few points in geometry component,POINT(337434.2217987147 6292571.9367031045),0
+osm_poligonos,95463,,1181239823,Too few points in geometry component,POINT(337432.3203347254 6292577.228843212),0
+osm_poligonos,95468,,1181239844,Too few points in geometry component,POINT(337434.5027116558 6292655.597912829),0
+osm_poligonos,95469,,1181239845,Too few points in geometry component,POINT(337432.5919437059 6292660.889896346),0
+osm_poligonos,95470,,1181239846,Too few points in geometry component,POINT(337427.92181751947 6292672.746236415),0
+osm_poligonos,95471,,1181239847,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,95553,,1181239942,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,95571,,1181239961,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,95593,,1181510871,Too few points in geometry component,POINT(337433.7141484089 6292435.584262754),0
+osm_poligonos,95594,,1181510872,Too few points in geometry component,POINT(337432.9697497153 6292441.151029678),0
+osm_poligonos,95595,,1181510876,Too few points in geometry component,POINT(337433.15494303266 6292418.592853222),0
+osm_poligonos,95689,,1181510998,Too few points in geometry component,POINT(337438.0835841731 6292328.563857961),0
+osm_poligonos,95690,,1181511013,Too few points in geometry component,POINT(337437.3708889821 6292288.709068583),0
+osm_poligonos,95697,,1181511021,Too few points in geometry component,POINT(337436.299039091 6292271.808840046),0
+osm_poligonos,95698,,1181511041,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,95761,,1181511143,Too few points in geometry component,POINT(337444.65450492955 6292182.469858643),0
+osm_poligonos,95762,,1181511144,Too few points in geometry component,POINT(337443.5673502317 6292176.949852265),0
+osm_poligonos,95766,,1181511158,Too few points in geometry component,POINT(337434.5107557076 6292394.4016934065),0
+osm_poligonos,96194,,1182601403,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,96195,,1182601404,Too few points in geometry component,POINT(337439.35710980877 6292155.482222568),0
+osm_poligonos,96196,,1182601405,Too few points in geometry component,POINT(337440.5172153468 6292161.635708985),0
+osm_poligonos,96201,,1182601410,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,96202,,1182601412,Too few points in geometry component,POINT(337440.37643821223 6292108.258204431),0
+osm_poligonos,96203,,1182601413,Too few points in geometry component,POINT(337439.039252052 6292100.482286094),0
+osm_poligonos,97087,,1183809373,Self-intersection,POINT(337473.22189929505 6290184.671966222),2.6930981983424247
+osm_poligonos,97088,,1183809376,Self-intersection,POINT(337473.50376808067 6290164.986246845),4.930031370188368
+osm_poligonos,100249,,1190681413,Self-intersection,POINT(358715.6313305945 6298491.676074165),44.12167211766039
+osm_poligonos,100453,,1195944832,Too few points in geometry component,POINT(337303.64518185606 6300778.139060171),0
+osm_poligonos,102293,,1206533558,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,102494,,1209788703,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,102495,,1209788704,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,102504,,1209947077,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,102506,,1209947079,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,102518,,1210167035,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,104356,,1216329988,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,104433,,1216643524,Too few points in geometry component,POINT(338519.7266125573 6289720.511992776),0
+osm_poligonos,104436,,1216643536,Self-intersection,POINT(338231.41874202364 6289709.553761791),354.60965732765624
+osm_poligonos,104668,,1218389719,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,104669,,1218389720,Too few points in geometry component,POINT(355613.7135429161 6289989.703428328),0
+osm_poligonos,106301,,1225022017,Too few points in geometry component,POINT(338444.04572625144 6307336.243310578),0
+osm_poligonos,106375,,1226061894,Too few points in geometry component,POINT(345976.72757149616 6289842.854398197),0
+osm_poligonos,107862,,1228292623,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,108118,,1230345972,Too few points in geometry component,POINT(358680.3132492574 6297015.009452442),0
+osm_poligonos,108119,,1230345973,Self-intersection,POINT(358730.42361896107 6296810.038605464),9183.304729140153
+osm_poligonos,108130,,1230948686,Self-intersection,POINT(358681.1037134721 6300232.389620932),25367.189128012014
+osm_poligonos,109252,,1238763487,Too few points in geometry component,POINT(351321.46541760606 6289984.371642716),0
+osm_poligonos,111577,,1279112607,Self-intersection,POINT(341176.48800597526 6307480.875717396),2090.3952800328384
+osm_poligonos,111578,,1279112610,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,111595,,1279112641,Too few points in geometry component,POINT(343170.8617773494 6307526.225408054),0
+osm_poligonos,113040,,1287520310,Self-intersection,POINT(343360.5394527467 6307518.3696561325),78.31868212042397
+osm_poligonos,115183,,1301576413,Self-intersection,POINT(358690.8562476077 6296694.473694192),14640.446427898869
+osm_poligonos,116801,,1304273175,Too few points in geometry component,POINT(339406.12782691466 6307464.194101339),0
+osm_poligonos,116802,,1304273182,Too few points in geometry component,POINT(339390.83148607076 6307462.1770314295),0
+osm_poligonos,116808,,1304273188,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,116810,,1304273197,Too few points in geometry component,POINT(339312.03812541114 6307469.6998916175),0
+osm_poligonos,116811,,1304273212,Too few points in geometry component,POINT(339292.5965850142 6307467.880135715),0
+osm_poligonos,116814,,1304273215,Too few points in geometry component,POINT(339276.91208435537 6307465.135487399),0
+osm_poligonos,116858,,1304285557,Too few points in geometry component,POINT(338672.6615826651 6307453.542649332),0
+osm_poligonos,118705,,1308549843,Too few points in geometry component,POINT(345087.5720432423 6289818.868911107),0
+osm_poligonos,119788,,1314949907,Self-intersection,POINT(353385.3417473975 6307607.492387299),183632.02787189334
+osm_poligonos,119833,,1316281853,Too few points in geometry component,POINT(337388.56364784925 6305155.224431952),0
+osm_poligonos,119878,,1317909457,Too few points in geometry component,POINT(355427.1548990961 6289986.60591816),0
+osm_poligonos,119929,,1319943957,Too few points in geometry component,POINT(354355.1517935006 6289969.215492409),0
+osm_poligonos,119976,,1320760040,Self-intersection,POINT(358121.025216677 6290020.937140323),25823.118585525932
+osm_poligonos,120780,,1339229250,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,120965,,1346987991,Too few points in geometry component,POINT(343583.0495709084 6307535.659705699),0
+osm_poligonos,121014,,1348548966,Too few points in geometry component,POINT(337221.2679273861 6306819.32120674),0
+osm_poligonos,122074,,1361187448,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,122664,,1371660937,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,122684,,1371660958,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,122686,,1371660960,Too few points in geometry component,POINT(352194.0252854329 6289932.9931386635),0
+osm_poligonos,122687,,1371660962,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,123110,,1377657121,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,123111,,1377657353,Too few points in geometry component,POINT(337255.4115096616 6303059.215042808),0
+osm_poligonos,123112,,1377657354,Too few points in geometry component,POINT(337256.57471313194 6303063.07240742),0
+osm_poligonos,123113,,1377657355,Too few points in geometry component,POINT(337258.2602180204 6303067.959011756),0
+osm_poligonos,123114,,1377657356,Too few points in geometry component,POINT(337259.41430940374 6303071.805130696),0
+osm_poligonos,123121,,1377657363,Too few points in geometry component,POINT(337256.7313442228 6303106.865909426),0
+osm_poligonos,123122,,1377657364,Too few points in geometry component,POINT(337257.8947418004 6303110.7121846),0
+osm_poligonos,123123,,1377657365,Too few points in geometry component,POINT(337254.25578302005 6303098.061665296),0
+osm_poligonos,123124,,1377657366,Too few points in geometry component,POINT(337255.4189918283 6303101.91902967),0
+osm_poligonos,123125,,1377657367,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,123140,,1377657385,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,123401,,1377657702,Too few points in geometry component,POINT(337253.6085094252 6303175.272664433),0
+osm_poligonos,123849,,1378596273,Too few points in geometry component,POINT(337257.68241982424 6302811.348950461),0
+osm_poligonos,123872,,1378596442,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,123893,,1378596479,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,125100,,1389679370,Too few points in geometry component,POINT(337391.7920510917 6295112.98951453),0
+osm_poligonos,125133,,1389679405,Too few points in geometry component,POINT(337390.77847590053 6295100.871019527),0
+osm_poligonos,125151,,1389679423,Too few points in geometry component,POINT(337390.8243286568 6294984.505182251),0
+osm_poligonos,125169,,1389679443,Too few points in geometry component,POINT(337389.9014695443 6294972.521317078),0
+osm_poligonos,125182,,1389679458,Too few points in geometry component,POINT(337393.68522050424 6294950.434266079),0
+osm_poligonos,125199,,1389679478,Too few points in geometry component,POINT(337394.91363423667 6294962.489832144),0
+osm_poligonos,125210,,1389679492,Too few points in geometry component,POINT(337392.8193613398 6294770.129580319),0
+osm_poligonos,125696,,1389996126,Too few points in geometry component,POINT(337395.8136060855 6294810.887846058),0
+osm_poligonos,125706,,1389996139,Too few points in geometry component,POINT(337394.8913336394 6294798.870711302),0
+osm_poligonos,125724,,1389996161,Too few points in geometry component,POINT(337393.7416258736 6294782.146715969),0
+osm_poligonos,125753,,1389996192,Too few points in geometry component,POINT(337392.7400131498 6294868.614514854),0
+osm_poligonos,125754,,1389996193,Too few points in geometry component,POINT(337391.5116225682 6294856.558946334),0
+osm_poligonos,125804,,1389996246,Too few points in geometry component,POINT(337393.4179044706 6294934.301930673),0
+osm_poligonos,125813,,1389996257,Too few points in geometry component,POINT(337392.1894987357 6294922.246363724),0
+osm_poligonos,125824,,1389996269,Too few points in geometry component,POINT(337388.18142746884 6295072.941867341),0
+osm_poligonos,125843,,1389996288,Too few points in geometry component,POINT(337389.1949939402 6295085.060363337),0
+osm_poligonos,125863,,1389996311,Too few points in geometry component,POINT(337391.72279018036 6295001.247122079),0
+osm_poligonos,125875,,1389996324,Too few points in geometry component,POINT(337392.64565687825 6295013.230986396),0
+osm_poligonos,127822,,1391309103,Too few points in geometry component,POINT(337390.5787460299 6295180.031544059),0
+osm_poligonos,128089,,1391309526,Too few points in geometry component,POINT(337393.36295229814 6295298.375043787),0
+osm_poligonos,128090,,1391309527,Too few points in geometry component,POINT(337390.383517609 6295282.651794905),0
+osm_poligonos,128091,,1391309528,Too few points in geometry component,POINT(337391.51179660927 6295288.51630903),0
+osm_poligonos,128097,,1391309534,Too few points in geometry component,POINT(337392.5723474843 6295378.956460567),0
+osm_poligonos,128098,,1391309535,Too few points in geometry component,POINT(337390.8885464796 6295370.198658951),0
+osm_poligonos,128099,,1391309536,Too few points in geometry component,POINT(337389.76025470893 6295364.33414579),0
+osm_poligonos,128100,,1391309537,Too few points in geometry component,POINT(337386.66670755215 6295348.209662199),0
+osm_poligonos,128101,,1391309538,Too few points in geometry component,POINT(337387.7949948692 6295354.074176002),0
+osm_poligonos,128102,,1391309539,Too few points in geometry component,POINT(337384.89349218085 6295337.586889757),0
+osm_poligonos,128105,,1391309545,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,128128,,1391309658,Too few points in geometry component,POINT(337387.00630777574 6295134.405248828),0
+osm_poligonos,128145,,1391309675,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,128703,,1391725786,Too few points in geometry component,POINT(337396.4752005686 6294747.907265931),0
+osm_poligonos,128710,,1391725795,Too few points in geometry component,POINT(337397.3974655025 6294759.92440152),0
+osm_poligonos,128866,,1391725971,Too few points in geometry component,POINT(337387.23956579913 6295267.313993493),0
+osm_poligonos,128890,,1391726101,Too few points in geometry component,POINT(337383.0558433404 6295449.9626212055),0
+osm_poligonos,128895,,1391726237,Too few points in geometry component,POINT(337381.7326733628 6295621.744839115),0
+osm_poligonos,128899,,1391726250,Too few points in geometry component,POINT(337378.9309618974 6295606.501550774),0
+osm_poligonos,128902,,1391726258,Too few points in geometry component,POINT(337383.51207626075 6295595.586529681),0
+osm_poligonos,128905,,1391726267,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,128909,,1391726283,Too few points in geometry component,POINT(337380.5301014186 6295532.555723326),0
+osm_poligonos,129108,,1391726549,Too few points in geometry component,POINT(337383.86357911525 6295500.234239958),0
+osm_poligonos,129109,,1391726551,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,129110,,1391726552,Too few points in geometry component,POINT(337384.9825955003 6295506.0985956155),0
+osm_poligonos,129111,,1391726554,Too few points in geometry component,POINT(337386.7146655012 6295515.855491683),0
+osm_poligonos,129113,,1391726556,Too few points in geometry component,POINT(337382.17452546174 6295491.786927676),0
+osm_poligonos,129114,,1391726557,Too few points in geometry component,POINT(337387.8429798224 6295521.720003324),0
+osm_poligonos,129302,,1393396525,Too few points in geometry component,POINT(337396.6450732997 6294633.573303593),0
+osm_poligonos,129631,,1393396865,Too few points in geometry component,POINT(337400.90819797816 6294339.79453884),0
+osm_poligonos,129641,,1393396875,Too few points in geometry component,POINT(337402.2722549316 6294354.825075414),0
+osm_poligonos,129643,,1393396893,Too few points in geometry component,POINT(337403.50095107 6294374.578544341),0
+osm_poligonos,129666,,1393396946,Too few points in geometry component,POINT(337399.63336386066 6294460.66533095),0
+osm_poligonos,129679,,1393396960,Too few points in geometry component,POINT(337400.5479842039 6294476.442549327),0
+osm_poligonos,129680,,1393396974,Too few points in geometry component,POINT(337402.5947090809 6294495.644105216),0
+osm_poligonos,129694,,1393396989,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,129696,,1393397003,Too few points in geometry component,POINT(337398.5171777364 6294522.484702914),0
+osm_poligonos,129710,,1393397017,Too few points in geometry component,POINT(337399.4318094557 6294538.261919849),0
+osm_poligonos,129726,,1393397045,Too few points in geometry component,POINT(337401.15619469376 6294558.389773587),0
+osm_poligonos,129743,,1393397070,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,130150,,1394066936,Too few points in geometry component,POINT(337403.0580169053 6294659.004518338),0
+osm_poligonos,130151,,1394066937,Too few points in geometry component,POINT(337402.57590003096 6294652.862491664),0
+osm_poligonos,130897,,1409313803,Too few points in geometry component,POINT(344168.5125529283 6307516.8082298),0
+osm_poligonos,130898,,1409313805,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,130930,,1410203927,Self-intersection,POINT(337471.94696264144 6294703.960859112),3132.3773336783465
+osm_poligonos,132947,,1419540335,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,134070,,1424676073,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,134071,,1424676074,Self-intersection,POINT(344021.04503451055 6289821.046576431),11.03754423578596
+osm_poligonos,134072,,1424676075,Too few points in geometry component,POINT(344010.1463646795 6289828.101824084),0
+osm_poligonos,135225,,1442812563,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,138247,,1473487953,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,138624,,1474443670,Too few points in geometry component,POINT(358712.46313589066 6298704.2206386635),0
+osm_poligonos,140052,,1502471000,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,140466,,1504138103,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,140586,,1505181081,Too few points in geometry component,POINT(346772.17551955994 6289851.358750628),0
+osm_poligonos,140601,,1505181100,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,140614,,1505181119,Too few points in geometry component,POINT(346691.6854168609 6289868.23495206),0
+osm_poligonos,141751,,1509313073,Too few points in geometry component,POINT(337352.06746184453 6298158.176792009),0
+osm_poligonos,141754,,1509313079,Too few points in geometry component,POINT(337455.75769145554 6298276.554212138),0
+osm_poligonos,141767,,1509318312,Too few points in geometry component,POINT(337211.3607308167 6305674.27512422),0
+osm_poligonos,141957,,1509668185,Too few points in geometry component,POINT(343176.3352472822 6289788.253685512),0
+osm_poligonos,141958,,1509668186,Too few points in geometry component,POINT(343245.3247837145 6289790.6188856885),0
+osm_poligonos,144755,,1521844462,Too few points in geometry component,POINT(337300.85338229925 6301297.339268843),0
+osm_poligonos,144756,,1521844464,Too few points in geometry component,POINT(337511.7454128701 6300756.570622034),0
+osm_poligonos,145063,,1525697723,Too few points in geometry component,POINT(354038.47084821726 6289967.195082268),0
+osm_poligonos,145064,,1525697724,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,145274,,1529987935,Too few points in geometry component,POINT(337457.18818307656 6297739.493204109),0
+osm_poligonos,145316,,1530000569,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,145317,,1530000570,Too few points in geometry component,POINT(337373.22761481575 6296441.180238595),0
+osm_poligonos,145319,,1530000572,Self-intersection,POINT(337407.825606397 6296622.633411217),468.90336009369844
+osm_poligonos,145325,,1530001397,Too few points in geometry component,POINT(337424.104769749 6296173.8099117875),0
+osm_poligonos,145326,,1530001398,Self-intersection,POINT(337379.3591313603 6296092.1611372875),2292.9410423966824
+osm_poligonos,145327,,1530001399,IllegalArgumentException: Invalid number of points in LinearRing found 2 - must be 0 or >= 3,,0
+osm_poligonos,145339,,1530178101,Too few points in geometry component,POINT(337305.8621481268 6301352.927596048),0
+osm_poligonos,145351,,1530178135,Too few points in geometry component,POINT(337365.7630826017 6300313.488620523),0
+osm_poligonos,145352,,1530178138,Too few points in geometry component,POINT(337319.06779571855 6299737.884300749),0
