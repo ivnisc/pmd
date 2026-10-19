@@ -2,6 +2,8 @@
 
 Carga y análisis geoespacial con PostgreSQL/PostGIS. Las fuentes se guardan en `data/` y no se versionan.
 
+[Informe en PDF](informe.pdf).
+
 ## Requisitos
 
 - Docker con Compose v2.
