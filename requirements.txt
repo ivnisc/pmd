@@ -1,0 +1,5 @@
+# dependencias directas; las transitivas se fijan en requirements-lock.txt
+pandas==3.0.5
+matplotlib==3.11.1
+SQLAlchemy==2.0.52
+psycopg2-binary==2.9.12
