@@ -2,7 +2,12 @@
   "inspection_date": "2026-10-14",
   "study_area": {
     "name": "santiago-centro",
-    "bbox_epsg4326": [-70.75, -33.52, -70.52, -33.36],
+    "bbox_epsg4326": [
+      -70.75,
+      -33.52,
+      -70.52,
+      -33.36
+    ],
     "working_srid": 5361
   },
   "sources": {
@@ -13,9 +18,13 @@
       "publication_page": "https://download.geofabrik.de/south-america/chile.html",
       "snapshot_utc": "2026-10-12T20:21:35+00:00",
       "snapshot_basis": "PBF header osmosis_replication_timestamp",
-      "download_date": null,
+      "download_date": "2026-10-13",
       "bytes": 349379970,
-      "sha256": "451b6104c08bc2535118fceed8f01e303d777bcdf19f62f8e7050f266cb3706a"
+      "sha256": "451b6104c08bc2535118fceed8f01e303d777bcdf19f62f8e7050f266cb3706a",
+      "download_url": "https://download.geofabrik.de/south-america/chile-261012.osm.pbf",
+      "download_url_basis": "Official source URL: HTTP HEAD 200 and size matching the local file, checked 2026-10-18",
+      "url_verified_date": "2026-10-18",
+      "download_date_basis": "confirmed by user"
     },
     "gtfs": {
       "filename": "GTFS_20261003.zip",
@@ -38,8 +47,12 @@
         "trips": 26159,
         "shape_points": 456573,
         "shapes": 981,
-        "stop_times": 1098529
-      }
+        "stop_times": 1098529,
+        "calendar": 6,
+        "calendar_dates": 12,
+        "frequencies": 14542
+      },
+      "url_verified_date": "2026-10-18"
     },
     "dpa": {
       "filename": "DPA_2023.zip",
@@ -47,12 +60,16 @@
       "publisher": "IDE Chile (SUBDERE, IGM, DIFROL, INE)",
       "publication_page": "https://datos.gob.cl/dataset/categoria-geoespacial-limites-y-fronteras",
       "version": "DPA 2023",
-      "download_date": null,
+      "download_date": "2026-10-13",
       "bytes": 310992026,
       "sha256": "8ac1ce872230b645c3cf04db2d980c1968e78f602144347f4513119dc9b945db",
-      "availability": "inspected in ein102b/03/datos_fuente; copy to t1 pending",
+      "availability": "local data/DPA_2023.zip; SHA-256 verified after copying from the Lab 03 source",
       "source_srid": 5360,
-      "expected_communes": 345
+      "expected_communes": 345,
+      "download_url": "https://www.geoportal.cl/geoportal/catalog/download/912598ad-ac92-35f6-8045-098f214bd9c2",
+      "download_url_basis": "Official source URL: HTTP HEAD 200 and size matching the local file, checked 2026-10-18",
+      "url_verified_date": "2026-10-18",
+      "download_date_basis": "confirmed by user"
     }
   },
   "excluded_alternative_osm": {
